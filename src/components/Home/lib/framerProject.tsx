@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-import { Tab } from '@/hooks/useTabs';
+import { Tab } from '@/components/Hooks/useTabs';
 import classNames from 'classnames';
 import { AnimatePresence, motion } from 'framer-motion';
 

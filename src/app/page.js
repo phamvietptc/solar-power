@@ -107,7 +107,7 @@ export default function Home() {
                         <h4 className=" text-sm text-white font-segoe font-normal leading-19px uppercase mb-5 ">NĂM kinh nghiệm phát triển bền vững</h4>
                         <a href="#" className=" text-xs font-segoe font-normal leading-19px uppercase relative text-white w-full inline-block cursor-pointer " target="_blank">
                           hồ sơ năng lực
-                          <span className=" text-50px -right-5 w-10 h-10 border border-solid border-white absolute rounded-full -top-3 before:right-3 before:bottom-19px before:-rotate-90 before:content-[''] before:bg-white before:absolute before:h-1px before:w-14px before:z-10 after:right-3 after:top-5 after:rotate-0 after:content-[''] after:bg-white after:absolute after:h-1px after:w-14px after:z-10 "></span>
+                          <span className=" text-50px -right-5 w-10 h-10 border border-solid border-white absolute rounded-full -top-3 before:right-3 before:bottom-18px before:-rotate-90 before:content-[''] before:bg-white before:absolute before:h-1px before:w-14px before:z-10 after:right-3 after:top-1.2rem after:rotate-0 after:content-[''] after:bg-white after:absolute after:h-1px after:w-14px after:z-10 "></span>
                         </a>
                       </div>
                     </div>

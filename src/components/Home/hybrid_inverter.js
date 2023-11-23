@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import classNames from 'classnames';
-import { useDeviceSize } from "@/hooks/useScreenWidth";
+import { useDeviceSize } from "@/components/Hooks/useScreenWidth";
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';
 import 'swiper/css/autoplay';

@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 
-import { useTabs } from '@/hooks/useTabs';
-import { FramerProduct } from '@/lib/home/framerProduct';
+import { useTabs } from '@/components/Hooks/useTabs';
+import { FramerProduct } from '@/components/Home/lib/framerProduct';
 
 import SolarPanel from './solar_panel';
 import Inverter from './inverter';

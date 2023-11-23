@@ -4,6 +4,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/lib/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     animation: {
@@ -104,11 +105,13 @@ module.exports = {
         "2px": "2px",
         "5px": "5px",
         "17px": "17px",
+        "18px": "18px",
         "19px": "19px",
         "25px": "25px",
         "35px": "35px",
         "60px": "60px",
         "10px": "10px",
+        "1.2rem": "1.2rem",
       },
       scale: {
         120: "1.20",

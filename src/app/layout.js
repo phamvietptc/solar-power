@@ -1,7 +1,7 @@
 import "./globals.css";
 import { cx } from "@/utils";
 import { Inter, Manrope } from "next/font/google";
-// import Header from "@/src/components/Header";
+import Header from "@/components/Header";
 // import Footer from "../components/Footer";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
     document.documentElement.classList.remove('dark')
   }`}
         </Script>
-        {/* <Header /> */}
+        <Header />
         <div className=" w-auto max-w-950px mx-auto px-0 ">
           <div className=" mt-60px ">
             <div className=" float-none w-full clear-both bg-white ">
