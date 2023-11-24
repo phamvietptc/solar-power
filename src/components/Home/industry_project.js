@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import classNames from 'classnames';
-import { useDeviceSize } from "@/components/Hooks/useScreenWidth";
+import { useDeviceSize } from "@/src/components/Hooks/useScreenWidth";
 import 'swiper/css';
 import 'swiper/css/pagination';
 

@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 
-import { useTabs } from '@/components/Hooks/useTabs';
-import { FramerProject } from '@/components/Home/lib/framerProject';
+import { useTabs } from '@/src/components/Hooks/useTabs';
+import { FramerProject } from '@/src/components/Home/lib/framerProject';
 
 import Industry from './industry_project';
 import Family from './family_project';

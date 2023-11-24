@@ -1,13 +1,13 @@
-// import {allBlogs} from "contentlayer/generated";
+import {allBlogs} from "contentlayer/generated";
 // import HomeCoverSection from "../components/Home/HomeCoverSection";
 // import FeaturedPosts from "../components/Home/FeaturedPosts";
 // import RecentPosts from "../components/Home/RecentPosts";
-import Tabs from "@/components/Home/tabs";
-import TabsProject from "@/components/Home/tabsProject";
-import TabsProduct from "@/components/Home/tabsProduct";
+import Tabs from "@/src/components/Home/tabs";
+import TabsProject from "@/src/components/Home/tabsProject";
+import TabsProduct from "@/src/components/Home/tabsProduct";
 
 export default function Home() {
-  
+  console.log(allBlogs);
   return (
     <main>
       {/* <HomeCoverSection blogs={allBlogs} />
@@ -139,7 +139,7 @@ export default function Home() {
                   <p className=" text-white mb-6 ">Chúng tôi cam kết phục vụ khách hàng bằng cả “trái tim” của sự nhiệt huyết và tinh thần trách nhiệm cao!</p>
                 </div>
                 <div>
-                  <TabsProject />
+                  <TabsProject blogs={allBlogs} />
                 </div>
               </section>
 
