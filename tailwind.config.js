@@ -39,6 +39,7 @@ module.exports = {
         rgba08: "0 0 0 rgba(0,0,0,.08)",
       },
       backgroundImage: {
+        "blue-bottom": "linear-gradient(-50deg,#2692ce 0%,#007fc6 100%)",
         "black-top": "linear-gradient(to top,#000000 0%,rgba(0,0,0,0) 100%)",
         rgba: "linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,.3) 100%)",
         orange: "linear-gradient(to right, #f69321 0%, #ffa843 100%)",
@@ -55,6 +56,7 @@ module.exports = {
       width: {
         "10px": "10px",
         "14px": "14px",
+        "27px": "27px",
         "30px": "30px",
         "150px": "150px",
         "158px": "158px",
@@ -99,6 +101,8 @@ module.exports = {
         1.2: "1.2",
         "19px": "19px",
         "22px": "22px",
+        "26px": "26px",
+        "38px": "38px",
         "60px": "60px",
       },
       inset: {
@@ -132,6 +136,7 @@ module.exports = {
         "5px": "5px",
         "10px": "10px",
         "15px": "15px",
+        "25px": "25px",
         "30px": "30px",
         "50px": "50px",
         "70px": "70px",
@@ -147,7 +152,7 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };
 
 // colors: {
