@@ -10,6 +10,7 @@ module.exports = {
     animation: {
       opa: "opa 2s",
       shine: "shine .75s",
+      zoom: "zoom 1.3s infinite",
     },
     keyframes: {
       opa: {
@@ -18,6 +19,11 @@ module.exports = {
       },
       shine: {
         "100%": { left: "125%" },
+      },
+      zoom: {
+        "0%": {transform: scale(.9)},
+        "70%": {transform: scale(1), boxShadow: transparent(0, 0, 0, 15)},
+        "100%": {transform: scale(.9), boxShadow: transparent(0, 0, 0, 0)},
       },
     },
     extend: {
@@ -37,6 +43,9 @@ module.exports = {
       boxShadow: {
         rgba: "0 5px 54px rgba(0, 0, 0, 0.21)",
         rgba08: "0 0 0 rgba(0,0,0,.08)",
+      },
+      backgroundColor: {
+        "shadow-button": "rgba( 0,0,0,0.4 )",
       },
       backgroundImage: {
         "blue-bottom": "linear-gradient(-50deg,#2692ce 0%,#007fc6 100%)",

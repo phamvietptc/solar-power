@@ -1,8 +1,10 @@
 import "./globals.css";
 import { cx } from "@/src/utils";
 import { Inter, Manrope } from "next/font/google";
-import Header from "@/src/components/Header";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
+import BackToTopButton from "../components/Button/BackToTopButton";
+import Phone from "../components/Button/Phone";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
 
@@ -79,6 +81,8 @@ export default function RootLayout({ children }) {
           </div>
         </div>
         <Footer />
+        <BackToTopButton />
+        <Phone />
       </body>
     </html>
   );
