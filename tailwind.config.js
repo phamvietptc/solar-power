@@ -7,26 +7,20 @@ module.exports = {
     "./src/lib/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    animation: {
-      opa: "opa 2s",
-      shine: "shine .75s",
-      zoom: "zoom 1.3s infinite",
-    },
-    keyframes: {
-      opa: {
-        "0%": { opacity: "0" },
-        "100%": { opacity: "1" },
-      },
-      shine: {
-        "100%": { left: "125%" },
-      },
-      zoom: {
-        "0%": {transform: scale(.9)},
-        "70%": {transform: scale(1), boxShadow: transparent(0, 0, 0, 15)},
-        "100%": {transform: scale(.9), boxShadow: transparent(0, 0, 0, 0)},
-      },
-    },
     extend: {
+      animation: {
+        opa: "opa 2s",
+        shine: "shine .75s",
+      },
+      keyframes: {
+        opa: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        shine: {
+          "100%": { left: "125%" },
+        },
+      },
       skew: {
         25: "25deg",
       },

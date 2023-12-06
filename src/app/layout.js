@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import BackToTopButton from "../components/Button/BackToTopButton";
 import Phone from "../components/Button/Phone";
+import Chat from "../components/Button/Chat";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
 
@@ -83,6 +84,7 @@ export default function RootLayout({ children }) {
         <Footer />
         <BackToTopButton />
         <Phone />
+        <Chat />
       </body>
     </html>
   );
