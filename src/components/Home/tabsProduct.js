@@ -45,7 +45,7 @@ const TabsProduct = () => {
   return (
     <>
       <FramerProduct.Tabs {...framerProduct.tabProps} />
-      <div className=" w-full max-h-300px relative overflow-hidden float-left px-10px before:content-['.'] before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+      <div className=" w-full md:w-70% max-h-300px md:max-h-400px relative overflow-hidden float-left px-10px before:content-['.'] before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
         {framerProduct.selectedTab.children}
       </div>
     </>

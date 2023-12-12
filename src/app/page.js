@@ -145,11 +145,11 @@ export default function Home() {
 
               {/* product */}
               <section className=" pb-70px pt-10 w-screen relative -ml-50vw left-1/2 overflow-hidden bg-no-repeat bg-cover ">
-                <div className=" max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+                <div className=" max-w-950px md:max-w-7xl mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
                   <div className=" clear-both w-full px-10px ">
-                    <h2 className=" text-center text-xl text-slate-900 font-segoe font-normal uppercase mb-5 leading-tight ">SẢN PHẨM NỔI BẬT</h2>
+                    <h2 className=" text-center md:text-left text-xl md:text-40px text-slate-900 font-segoe font-normal uppercase mb-5 leading-tight ">SẢN PHẨM NỔI BẬT</h2>
                   </div>
-                  <div>
+                  <div className=" md:mb-30px md:px-10px md:flex md:flex-wrap ">
                     <TabsProduct />
                   </div>
                 </div>

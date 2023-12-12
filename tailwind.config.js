@@ -32,6 +32,7 @@ module.exports = {
         "10px": "10px",
         "13px": "13px",
         "15px": "15px",
+        "40px": "40px",
         "50px": "50px",
       },
       boxShadow: {
@@ -70,6 +71,8 @@ module.exports = {
         "5460px": "5460px",
         "calc-20px": "calc(calc(100% / 2) - 20px)",
         "calc-34px": "calc(100% - 34px)!important",
+        "30%": "30%",
+        "70%": "70%",
       },
       minWidth: {
         "120px": "120px",
@@ -85,6 +88,7 @@ module.exports = {
         "1px": "1px",
         "30px": "30px",
         "60px": "60px",
+        "59px": "59px",
         "150px": "150px",
         "152px": "152px",
         "314px": "314px",
@@ -99,6 +103,7 @@ module.exports = {
         "165px": "165px",
         "183px": "183px",
         "300px": "300px",
+        "400px": "400px",
       },
       lineHeight: {
         1.2: "1.2",

@@ -14,8 +14,8 @@ const Footer = () => {
   return (
     <footer>
       <div className=" text-sm pt-10 clear-both bg-blue-bottom text-white ">
-        <div className=" border-b border-solid border-slate-100 max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:content-[''] after:table after:clear-both ">
-          <div className=" w-full mb-30px float-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+        <div className=" border-b border-solid border-slate-100 max-w-950px md:max-w-7xl mx-auto px-10px md:pb-10 before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:content-[''] after:table after:clear-both ">
+          <div className=" w-full mb-30px float-left md:w-1/4 px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
             <div>
               <img src="/images/home/logo_footer.png" alt="logo" />
             </div>
@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className=" w-1/2 float-left mb-30px px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+          <div className=" w-1/2 float-left md:w-1/4 mb-30px px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
             <div className=" font-segoe text-15px uppercase mb-15px ">
               Sản phẩm
             </div>
@@ -144,7 +144,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className=" w-1/2 float-left mb-30px px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+          <div className=" w-1/2 float-left md:w-1/4 mb-30px px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
             <div className=" font-segoe text-15px uppercase mb-15px ">
               Giải pháp
             </div>
@@ -213,7 +213,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className=" w-full mb-30px float-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+          <div className=" w-full mb-30px float-left md:w-1/4 px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
             <div className=" font-segoe text-15px uppercase mb-15px ">
               NHẬN THÔNG TIN
             </div>
@@ -241,8 +241,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className=" pt-30px flex flex-wrap max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
-          <div className=" w-full mb-30px float-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+        <div className=" pt-30px flex flex-wrap max-w-950px md:max-w-7xl mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+          <div className=" w-full mb-30px float-left md:w-1/4 px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
             <div className=" font-segoe text-15px uppercase mb-15px ">
               Trụ sở chính
             </div>
@@ -322,11 +322,11 @@ const Footer = () => {
         </div>
       </div>
       <div className=" bg-slate-50 text-slate-700 text-xs tracking-wider after:content-[''] after:table after:clear-both ">
-        <div className=" py-30px flex items-center max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
-          <div className=" text-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+        <div className=" py-30px flex items-center max-w-950px md:max-w-7xl mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+          <div className=" text-left md:w-1/2 px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
             <div>Copyright © 2020 - 2023.</div>
           </div>
-          <div className=" text-right px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+          <div className=" text-right md:w-1/2 px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
             <ul className=" list-none ">
               <li className=" border-r border-solid border-r-slate-500 inline-block px-10px ">
                 <a href="#">Điều khoản sử dụng</a>
