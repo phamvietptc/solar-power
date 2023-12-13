@@ -10,9 +10,17 @@ const Inverter = () => {
 
     const { width } = useDeviceSize();
     const breakpoint = 768;
-    const spaceBetween = width < breakpoint ? 0 : 40;
-    const slidesPerView = width < breakpoint ? 1 : 2;
+    const spaceBetween = width < breakpoint ? 0 : 0;
+    const slidesPerView = width < breakpoint ? 1 : 4;
     const slider = [
+        {
+            image: "/images/product/inverter-invt-imars-bg-60-kw.png",
+            product: "HiKu",
+            introduce: "Tấm pin năng lượng mặt trời Canadian 450W",
+            wattage: "450W",
+            manufacturer: "Canadian Solar",
+            link: "/",
+        },
         {
             image: "/images/home/panel_solar.png",
             product: "HiKu",
@@ -62,14 +70,14 @@ const Inverter = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                 >
                     {slider.map((item, index) => (
-                        <SwiperSlide className=" !w-1/2 " role="tablist" aria-label={index} key={index}>
+                        <SwiperSlide className=" !w-1/2 md:!w-1/4 " role="tablist" aria-label={index} key={index}>
                             <div className=" relative overflow-hidden ">
                                 <div className=" opacity-100 w-3150px relative top-0 left-0 mx-auto before:table before:content-[''] select-none ">
-                                    <div className=" w-175px float-left h-full min-h-1px ">
+                                    <div className=" w-175px float-left h-full min-h-1px md:border md:border-slate-200 md:rounded-md md:hover:border-orange-400 md:hover:border md:hover:rounded-md ">
                                         <div className=" w-full flex justify-center ">
                                             <div className=" flex flex-wrap min-h-150px p-3 rounded-10px border border-solid border-slate-50 bg-white my-2px shadow-rgba08 relative ">
                                                 <div className=" w-full float-left text-center ">
-                                                    <img src={item.image} className=" h-20 max-h-150px inline-block " alt="image" />
+                                                    <img src={item.image} className=" h-20 md:h-32 max-h-150px inline-block " alt="image" />
                                                 </div>
                                                 <div className=" w-full pt-10px text-center float-left ">
                                                     <h3 className=" text-lg text-slate-900 leading-5 font-segoe mb-10px font-normal normal-case ">{item.product}</h3>

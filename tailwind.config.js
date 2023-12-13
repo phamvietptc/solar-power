@@ -71,6 +71,7 @@ module.exports = {
         "5460px": "5460px",
         "calc-20px": "calc(calc(100% / 2) - 20px)",
         "calc-34px": "calc(100% - 34px)!important",
+        "calc-160px": "calc(100% - 160px)",
         "30%": "30%",
         "70%": "70%",
       },
