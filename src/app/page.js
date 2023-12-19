@@ -15,18 +15,18 @@ export default function Home() {
       <RecentPosts blogs={allBlogs} /> */}
 
       {/* banner */}
-      <section className=" max-h-183px overflow-hidden relative h-auto w-screen -ml-50vw left-1/2 mb-0 bg-no-repeat bg-cover ">
+      <section className=" max-h-183px md:max-h-none overflow-hidden relative h-auto md:h-calc-28px w-screen -ml-50vw left-1/2 mb-0 bg-no-repeat bg-cover ">
         <div className=" relative overflow-hidden ">
-          <div className=" opacity-100 w-390px relative mx-auto top-0 left-0 ">
-            <div className=" w-390px relative left-0 top-0 z-40 opacity-100 float-left h-full min-h-1px ">
+          <div className=" opacity-100 w-390px md:w-1440px relative mx-auto top-0 left-0 ">
+            <div className=" w-390px md:w-1440px relative left-0 top-0 z-40 opacity-100 float-left h-full min-h-1px ">
               <div className=" w-full h-full inline-block relative overflow-hidden ">
                 <img src="/images/home/banner.jpeg" />
-                <div className=" max-w-950px mx-auto px-10px ">
-                  <div className=" absolute top-1/2 w-full left-0 text-center -translate-y-1/2 ">
+                <div className=" max-w-950px md:max-w-7xl mx-auto px-10px ">
+                  <div className=" absolute top-1/2 w-full left-0 text-center -translate-y-1/2 md:-mt-35px ">
                     <h2></h2>
                     <a
                       href="#"
-                      className=" leading-3 text-sm py-5px px-15px text-white text-center min-w-120px font-normal uppercase inline-block relative overflow-hidden z-40 rounded-3xl bg-gradient-to-r bg-transparent from-orange-600 to-orange-400 cursor-pointer "
+                      className=" leading-3 md:leading-6 text-sm md:text-base py-5px md:py-13px px-15px md:px-11 text-white text-center min-w-120px font-normal uppercase inline-block relative overflow-hidden z-40 rounded-3xl bg-gradient-to-r bg-transparent from-orange-600 to-orange-400 cursor-pointer "
                     >
                       Khám phá hệ sinh thái năng lượng Solarht
                     </a>
@@ -39,12 +39,12 @@ export default function Home() {
       </section>
 
       {/* video */}
-      <section className=" pt-30px relative z-20 w-screen -ml-50vw left-1/2 overflow-hidden bg-no-repeat bg-cover ">
-        <div className=" max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible after:clear-both ">
-          <div className=" px-10px before:content-['.'] before:block before:overflow-hidden before:invisible after:clear-both ">
-            <div className=" items-center h-auto flex flex-wrap w-full bg-white rounded-10px justify-center ">
-              <div className=" p-10px w-calc-20px flex items-center float-left h-full relative ">
-                <div className=" w-full h-full inline-block ">
+      <section className=" md:-mt-88px pt-30px md:pt-0 relative z-20 md:z-40 w-screen -ml-50vw left-1/2 overflow-hidden bg-no-repeat bg-cover ">
+        <div className=" max-w-950px md:max-w-7xl mx-auto px-10px md:before:content-none before:content-['.'] before:block before:overflow-hidden before:invisible after:clear-both ">
+          <div className=" px-10px md:before:content-none before:content-['.'] before:block before:overflow-hidden before:invisible after:clear-both ">
+            <div className=" items-center md:items-start h-auto md:max-h-165px flex flex-wrap w-full md:mb-50px bg-white rounded-10px justify-center ">
+              <div className=" p-10px md:p-0 w-calc-20px md:w-1/4 flex items-center float-left h-full relative ">
+                <div className=" w-full md:w-auto h-full inline-block ">
                   <a
                     className=" text-orange-500 absolute w-full h-full top-0 left-0 z-50 cursor-pointer bg-transparent "
                     href="https://www.youtube.com/watch?v=h6-VubFRoIM"
@@ -52,68 +52,68 @@ export default function Home() {
                   <img
                     src="/images/home/video.png"
                     alt="video"
-                    className=" h-full object-cover max-h-165px max-w-full rounded-10px "
+                    className=" md:h-auto h-full object-cover max-h-165px max-w-full rounded-10px "
                   />
                   <a
                     href="#"
-                    className=" w-10 h-10 border border-solid border-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full z-10 text-orange-500 bg-transparent cursor-pointer "
+                    className=" w-10 md:w-60px h-10 md:h-60px border border-solid border-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full z-10 text-orange-500 bg-transparent cursor-pointer "
                   >
-                    <span className=" border-y-8 border-r-0 border-l-15px absolute w-0 h-0 border-solid border-t-transparent border-r-transparent border-b-transparent border-l-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 before:content-[''] before:absolute before:visited:text-orange-500 "></span>
+                    <span className=" border-y-8 md:border-y-15px border-r-0 border-l-15px md:border-l-20px absolute w-0 h-0 border-solid border-t-transparent border-r-transparent border-b-transparent border-l-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 before:content-[''] before:absolute before:visited:text-orange-500 "></span>
                   </a>
                 </div>
               </div>
-              <div className=" w-calc-20px p-10px flex items-center text-center justify-center float-left h-full relative ">
-                <div className=" inline-block ">
-                  <div className=" mb-10px w-full float-left relative top-2 ">
+              <div className=" w-calc-20px md:w-1/4 p-10px md:p-0 flex md:inline-block items-center text-center md:text-left justify-center float-left h-full relative ">
+                <div className=" inline-block md:pt-45px md:px-10 ">
+                  <div className=" mb-10px md:mb-0 md:mr-15px md:w-47px w-full float-left relative top-2 ">
                     <img
                       src="/images/home/energy.png"
                       alt="icon"
-                      className=" h-30px inline-block "
+                      className=" h-30px md:h-auto inline-block "
                     />
                   </div>
-                  <div className=" float-none ">
-                    <h3 className=" text-sm text-blue-500 uppercase mb-10px font-normal ">
+                  <div className=" float-none md:float-left ">
+                    <h3 className=" text-sm md:text-40px md:leading-1.2 text-blue-500 uppercase mb-10px font-normal ">
                       800MW
                     </h3>
-                    <p className=" text-10px leading-normal text-slate-900 uppercase ">
+                    <p className=" text-10px md:text-sm leading-normal text-slate-900 uppercase ">
                       TỔNG CÔNG SUẤT
                     </p>
                   </div>
                 </div>
               </div>
-              <div className=" w-calc-20px p-10px flex items-center text-center justify-center float-left h-full relative ">
-                <div className=" inline-block ">
-                  <div className=" mb-10px w-full float-left relative top-2 ">
+              <div className=" w-calc-20px md:w-1/4 md:p-0 p-10px flex md:inline-block items-center md:text-left text-center justify-center float-left h-full relative ">
+                <div className=" inline-block md:pt-45px md:px-10 ">
+                  <div className=" mb-10px md:mb-0 md:mr-15px md:w-47px w-full float-left relative top-2 ">
                     <img
                       src="/images/home/system.png"
                       alt="icon"
-                      className=" h-30px inline-block "
+                      className=" h-30px md:h-auto inline-block "
                     />
                   </div>
-                  <div className=" float-none ">
-                    <h3 className=" text-sm text-blue-500 uppercase mb-10px font-normal ">
+                  <div className=" float-none md:float-left ">
+                    <h3 className=" text-sm md:text-40px md:leading-1.2 text-blue-500 uppercase mb-10px font-normal ">
                       10.000+
                     </h3>
-                    <p className=" text-10px leading-normal text-slate-900 uppercase ">
+                    <p className=" text-10px md:text-sm leading-normal text-slate-900 uppercase ">
                       HỆ THỐNG
                     </p>
                   </div>
                 </div>
               </div>
-              <div className=" w-calc-20px p-10px flex items-center text-center justify-center float-left h-full relative ">
-                <div className=" inline-block ">
-                  <div className=" mb-10px w-full float-left relative top-2 ">
+              <div className=" w-calc-20px md:w-1/4 md:p-0 p-10px flex md:inline-block items-center md:text-left text-center justify-center float-left h-full relative ">
+                <div className=" inline-block md:pt-45px md:px-10 ">
+                  <div className=" mb-10px md:mb-0 md:mr-15px md:w-47px w-full float-left relative top-2 ">
                     <img
                       src="/images/home/partner.png"
                       alt="icon"
-                      className=" h-30px inline-block "
+                      className=" h-30px md:h-auto inline-block "
                     />
                   </div>
-                  <div className=" float-none ">
-                    <h3 className=" text-sm text-blue-500 uppercase mb-10px font-normal ">
+                  <div className=" float-none md:float-left ">
+                    <h3 className=" text-sm md:text-40px md:leading-1.2 text-blue-500 uppercase mb-10px font-normal ">
                       1.800+
                     </h3>
-                    <p className=" text-10px leading-normal text-slate-900 uppercase ">
+                    <p className=" text-10px md:text-sm leading-normal text-slate-900 uppercase ">
                       ĐỐI TÁC PHÂN PHỐI
                     </p>
                   </div>
