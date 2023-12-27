@@ -125,11 +125,11 @@ export default function Home() {
       </section>
 
       {/* about */}
-      <section className=" pb-10 pt-30px w-screen relative -ml-50vw left-1/2 overflow-hidden bg-no-repeat bg-cover ">
-        <div className=" max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
-          <div className=" w-full flex justify-center mb-30px text-center float-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
-            <div className=" text-13px ">
-              <h2 className=" text-xl text-slate-900 font-normal uppercase leading-1.2 font-segoe mb-5 ">
+      <section className=" md:pb-40 pb-10 pt-30px w-screen relative -ml-50vw left-1/2 overflow-hidden bg-no-repeat bg-cover ">
+        <div className=" md:max-w-7xl max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 ">
+          <div className=" md:w-1/2 md:m-0 w-full flex justify-center mb-30px text-center float-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+            <div className=" text-13px md:text-base md:pt-60px md:pr-60px ">
+              <h2 className=" md:text-40px text-xl text-slate-900 font-normal uppercase leading-1.2 font-segoe mb-5 ">
                 VỀ SOLAR HT
               </h2>
               <p className=" text-justify mb-6 text-slate-900 ">
@@ -140,7 +140,7 @@ export default function Home() {
                 tạo Hệ sinh thái, gia tăng hiệu quả, mang đến giá trị tối ưu cho
                 khách hàng, đối tác.
               </p>
-              <div className=" text-sm leading-22px text-left pl-15px border-l-8 border-solid border-slate-100 inline-block mb-50px mt-10px text-slate-900 text-justify ">
+              <div className=" md:text-xl md:leading-6 text-sm leading-22px text-left pl-15px border-l-8 border-solid border-slate-100 inline-block mb-50px mt-10px text-slate-900 ">
                 Solar ht đã cung cấp và triển khai hơn <b>10.000 hệ thống</b>{" "}
                 điện mặt trời có tổng công suất hơn <b>800MWp</b>, mang đến cho
                 khách hàng, đối tác và nhà đầu tư những giải pháp điện mặt trời
@@ -149,23 +149,23 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" w-full flex justify-center mb-30px text-center float-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+          <div className=" md:w-1/2 md:m-0 w-full flex justify-center mb-30px text-center float-left px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
             <div className=" relative ">
               <img src="/images/home/about.png" alt="image" />
-              <div className=" pt-0 pr-10 pb-5 pl-30px bg-linear-gradient text-white absolute -bottom-35px -left-35px max-w-290px before:absolute before:right-0 before:border-b-0 before:bg-[url('/images/home/before_right.png')] before:content-[''] before:w-158px before:h-152px before:bottom-0 ">
-                <span className=" text-50px font-segoe leading-normal font-normal uppercase ">
+              <div className=" md:px-30px pt-0 pr-10 pb-5 pl-30px bg-linear-gradient text-white absolute -bottom-35px -left-35px max-w-290px before:absolute before:right-0 before:border-b-0 before:bg-[url('/images/home/before_right.png')] before:content-[''] before:w-158px before:h-152px before:bottom-0 ">
+                <span className=" md:text-115px text-50px font-segoe leading-normal font-normal uppercase ">
                   17+
                 </span>
-                <h4 className=" text-sm text-white font-segoe font-normal leading-19px uppercase mb-5 ">
+                <h4 className=" md:text-base md:text-left text-sm text-white font-segoe font-normal leading-19px uppercase mb-5 ">
                   NĂM kinh nghiệm phát triển bền vững
                 </h4>
                 <a
                   href="#"
-                  className=" text-xs font-segoe font-normal leading-19px uppercase relative text-white w-full inline-block cursor-pointer "
+                  className=" md:text-17px md:text-left text-xs font-segoe font-normal leading-19px uppercase relative text-white w-full inline-block cursor-pointer "
                   target="_blank"
                 >
                   hồ sơ năng lực
-                  <span className=" text-50px -right-5 w-10 h-10 border border-solid border-white absolute rounded-full -top-3 before:right-3 before:bottom-18px before:-rotate-90 before:content-[''] before:bg-white before:absolute before:h-1px before:w-14px before:z-10 after:right-3 after:top-1.2rem after:rotate-0 after:content-[''] after:bg-white after:absolute after:h-1px after:w-14px after:z-10 "></span>
+                  <span className=" md:right-0 md:-top-3 -right-5 w-10 h-10 border border-solid border-white absolute rounded-full -top-3 before:right-3 before:bottom-18px before:-rotate-90 before:content-[''] before:bg-white before:absolute before:h-1px before:w-14px before:z-10 after:right-3 after:top-1.2rem after:rotate-0 after:content-[''] after:bg-white after:absolute after:h-1px after:w-14px after:z-10 "></span>
                 </a>
               </div>
             </div>

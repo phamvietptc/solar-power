@@ -32,8 +32,10 @@ module.exports = {
         "10px": "10px",
         "13px": "13px",
         "15px": "15px",
+        "17px": "17px",
         "40px": "40px",
         "50px": "50px",
+        "115px": "115px",
       },
       boxShadow: {
         rgba: "0 5px 54px rgba(0, 0, 0, 0.21)",
@@ -84,6 +86,7 @@ module.exports = {
         auto: "auto",
       },
       maxWidth: {
+        "220px": "220px",
         "290px": "290px",
         "600px": "600px",
         "950px": "950px",
@@ -156,6 +159,7 @@ module.exports = {
         "30px": "30px",
         "45px": "45px",
         "50px": "50px",
+        "60px": "60px",
         "70px": "70px",
       },
       borderRadius: {

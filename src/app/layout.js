@@ -63,16 +63,16 @@ export default function RootLayout({ children }) {
         className={cx(
           inter.variable,
           manrope.variable,
-          "font-mr bg-light dark:bg-dark"
+          " bg-white "
         )}
       >
-        <Script id="theme-switcher" strategy="beforeInteractive">
+        {/* <Script id="theme-switcher" strategy="beforeInteractive">
           {`if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark')
   } else {
     document.documentElement.classList.remove('dark')
   }`}
-        </Script>
+        </Script> */}
         <Header />
         <div className=" w-auto max-w-950px mx-auto px-0 ">
           <div className=" mt-60px ">
