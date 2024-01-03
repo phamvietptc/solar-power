@@ -174,13 +174,13 @@ export default function Home() {
       </section>
 
       {/* solution */}
-      <section className=" pb-10 bg-white w-screen relative -ml-50vw left-1/2 overflow-hidden bg-no-repeat bg-cover ">
-        <div className=" max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
-          <div className=" pt-10 w-full flex flex-wrap text-sm mb-30px float-left before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
-            <h2 className=" w-full text-center text-xl text-slate-900 font-segoe font-normal uppercase leading-1.2 px-10px ">
+      <section className=" md:pb-0 pb-10 bg-white w-screen relative -ml-50vw left-1/2 overflow-hidden bg-no-repeat bg-cover ">
+        <div className=" md:max-w-7xl max-w-950px mx-auto px-10px before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+          <div className=" md:mb-0 md:flex-nowrap md:inline-block pt-10 w-full flex flex-wrap text-sm mb-30px float-left before:content-['.'] before:block before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+            <h2 className=" md:-mb-64 md:w-30% md:text-40px md:text-left w-full text-center text-xl text-slate-900 font-segoe font-normal uppercase leading-1.2 px-10px ">
               GIẢI PHÁP ĐIỆN
               <br className=" hidden " /> MẶT TRỜI
-              <p className=" text-13px inline-block text-slate-900 leading-1.2 font-segoe my-5 normal-case ">
+              <p className=" md:text-17px text-13px inline-block text-slate-900 leading-1.2 font-segoe my-5 normal-case ">
                 Solar HT hiểu rõ những lợi ích của việc ứng dụng nguồn năng
                 lượng sạch vào nhiều lĩnh vực khác nhau của cuộc sống.
               </p>

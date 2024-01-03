@@ -38,7 +38,7 @@ const Tabs = () => {
   return (
     <>
       <Framer.Tabs {...framer.tabProps} />
-      <div className=" pt-10 w-full text-left float-left before:content-['.'] before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
+      <div className=" md:float-right md:pt-0 md:w-70% pt-10 w-full text-left float-left before:content-['.'] before:overflow-hidden before:invisible before:w-0 before:h-0 after:clear-both ">
         {framer.selectedTab.children}
       </div>
     </>

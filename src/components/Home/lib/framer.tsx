@@ -41,7 +41,7 @@ const Tabs = ({
   return (
     <nav
       ref={navRef}
-      className=" w-full flex flex-wrap px-10px "
+      className=" md:mt-64 md:w-30% md:float-left w-full flex flex-wrap px-10px "
       onPointerLeave={(e) => setHoveredTabIndex(null)}
     >
       {tabs.map((item, i) => {
@@ -71,8 +71,8 @@ const Tabs = ({
           >
             <div className=" active:text-blue-600 absolute w-full h-full top-0 left-0 bg-transparent border border-solid border-transparent bg-slate-700 cursor-pointer py-10px px-5 align-baseline font-normal normal-case leading-normal "></div>
             <div className=" p-5 text-center border border-solid border-white m-2px bg-white ">
-              <h4 className=" mb-25px text-sm ">{item.label}</h4>
-              <img src={item.image} alt="icon" className={classNames('w-auto h-10 brightness-0 inline-block', { 'filter-none': isActive, },)} />
+              <h4 className=" md:text-lg mb-25px text-sm ">{item.label}</h4>
+              <img src={item.image} alt="icon" className={classNames(' md:h-59px w-auto h-10 brightness-0 inline-block', { 'filter-none': isActive, },)} />
               <span className=" bg-transparent w-10px mx-auto cursor-pointer absolute bottom-10 right-25px "></span>
             </div>
           </motion.button>

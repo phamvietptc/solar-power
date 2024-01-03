@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
         <Footer />
         <BackToTopButton />
         <Phone />
-        <Chat />
+        {/* <Chat /> */}
       </body>
     </html>
   );
