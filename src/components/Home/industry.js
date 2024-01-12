@@ -41,7 +41,7 @@ const Industry = () => {
                                     <h5 className=" md:text-lg text-xs font-goeLight font-normal uppercase ">Giải pháp</h5>
                                     <h4 className=" font-segoe uppercase ">ESCO</h4>
                                 </div>
-                                <a href="#" className=" absolute left-0 top-0 w-full h-full visited:text-orange-600 "></a>
+                                <a href="/esco" className=" absolute left-0 top-0 w-full h-full visited:text-orange-600 "></a>
                             </li>
                         </ul>
                         <div className=" text-center "></div>

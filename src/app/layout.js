@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
   }`}
         </Script> */}
         <Header />
-        <div className=" w-auto max-w-950px mx-auto px-0 ">
+        <div className=" md:max-w-7xl w-auto max-w-950px mx-auto px-0 ">
           <div className=" mt-60px ">
             <div className=" float-none w-full clear-both bg-white ">
               {children}
