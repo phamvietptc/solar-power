@@ -33,7 +33,7 @@ const Family = () => {
                             </ul>
                         </ul>
                         <div className=" md:text-left text-center ">
-                            <a href="#" className=" md:pt-25px md:pb-6 md:px-45px md:min-w-120px md:text-base text-white text-xs py-5px px-15px text-center min-w-150px font-normal leading-6 uppercase inline-block relative overflow-hidden z-40 rounded-25px bg-orange bg-transparent cursor-pointer before:absolute before:top-0 before:-left-3/4 before:z-20 before:w-1/2 before:h-full before:bg-rgba before:-skew-x-25 before:hover:animate-shine ">Xem chi tiết</a>
+                            <a href="/family" className=" md:pt-25px md:pb-6 md:px-45px md:min-w-120px md:text-base text-white text-xs py-5px px-15px text-center min-w-150px font-normal leading-6 uppercase inline-block relative overflow-hidden z-40 rounded-25px bg-orange bg-transparent cursor-pointer before:absolute before:top-0 before:-left-3/4 before:z-20 before:w-1/2 before:h-full before:bg-rgba before:-skew-x-25 before:hover:animate-shine ">Xem chi tiết</a>
                             <span className=" md:top-6 top-17px hidden bg-white h-1px w-10px mx-auto cursor-pointer absolute right-5 "></span>
                         </div>
                     </div>

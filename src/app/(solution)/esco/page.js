@@ -2,7 +2,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 
-const Esco = () => {
+const SolutionEsco = () => {
   const {
     register,
     handleSubmit,
@@ -464,4 +464,4 @@ const Esco = () => {
   );
 };
 
-export default Esco;
+export default SolutionEsco;
